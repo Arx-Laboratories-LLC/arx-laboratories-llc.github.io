@@ -15,12 +15,13 @@ sub-path, and anything that has to sit at the domain root (like
 |---|---|
 | `/app-ads.txt` | AdMob authorised sellers, shared by all apps on the account. Must stay at the root. |
 | `/index.html` | Developer landing page. This root URL is the "Website" in Play Console for every app. |
-| `/<app>/` | One folder per app: `index.html`, `privacy.html`, and any others. |
+| `/<app>/` | One folder per app: `index.html`, `privacy.html`, `terms.html`, and any others. |
 
 Current apps:
 
 - **TCGBox**: `/tcgbox/`, privacy policy at
-  https://arx-laboratories-llc.github.io/tcgbox/privacy.html
+  https://arx-laboratories-llc.github.io/tcgbox/privacy.html, terms at
+  https://arx-laboratories-llc.github.io/tcgbox/terms.html
   (source of truth: `distribution/legal/privacy.html` in the private
   `ghero101/TCGBox` repo; copy it here when it changes).
 
